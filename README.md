@@ -2,7 +2,7 @@
 A simple plug-in module for Qt to check updates for your soft and for update as a result
 
 # Plug-in purpose
-A plugin encapsulates into your Qt project and then you can check available update for your software by calling its controller. All need you to do - create protocol JSON-file with update data.
+A plugin encapsulates into your Qt project and then you can check available update for your software by calling its controller. All you need is create protocol JSON-file with update data.
 
 # Quick start
 Just include **.pri** file into your project and somewhere in your code call:
