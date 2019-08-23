@@ -1,10 +1,21 @@
 # qt_file_updater
 A simple plug-in module for Qt to check updates for your soft and for update as a result
 
+# System requirements
+If you want to encapsulate code in software source code - there is no Windows XP support and lower cause you can't rename files during this software running.
+
 # Plug-in purpose
 A plugin encapsulates into your Qt project and then you can check available update for your software by calling its controller. All you need is create protocol JSON-file with update data.
 
 You no need to worry about intermediate versions if there is some files that not included in last. Update files map will get them all.
+
+# How it works
+1. A plugin checks your software updates by downloading update file with protocol data which example you can find below;
+2. If there is some available update - you'll see describtion for each update in the label;
+3. You can download available update - all files in each available version;
+4. Plugin places downloaded files into sub-folder of application folder;
+5. After that - you can install update - plugin replace files in application folder by files into sub-folder;
+6. After that - you can restart software.
 
 # Quick start
 Just include **.pri** file into your project and somewhere in your code call:
