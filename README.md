@@ -11,10 +11,10 @@ You no need to worry about intermediate versions if there is some files that not
 
 # How it works
 1. A plugin checks your software updates by downloading update file with protocol data which example you can find below;
-2. If there is some available update - you'll see describtion for each update in the label;
+2. If there is some available update - you'll see description for each update in the label;
 3. You can download available update - all files in each available version;
 4. Plugin places downloaded files into sub-folder of application folder;
-5. After that - you can install update - plugin replace files in application folder by files into sub-folder;
+5. After that - you can install update - plugin replace files in application folder by files into sub-folder (plugin will make backup for replacing files);
 6. After that - you can restart software.
 
 # Quick start
