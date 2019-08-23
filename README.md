@@ -4,6 +4,8 @@ A simple plug-in module for Qt to check updates for your soft and for update as 
 # Plug-in purpose
 A plugin encapsulates into your Qt project and then you can check available update for your software by calling its controller. All you need is create protocol JSON-file with update data.
 
+You no need to worry about intermediate versions if there is some files that not included in last. Update files map will get them all.
+
 # Quick start
 Just include **.pri** file into your project and somewhere in your code call:
 
