@@ -16,7 +16,7 @@
  *     "actualVersion": "3.7.6.6",
  *     "versions":
  *     {
- *          3766:
+ *          "3766":
  *          {
  *               "desc": "Some update info",
  *               "updateFiles":
@@ -25,7 +25,7 @@
  *                  "test.ini": "https://cloud.your_site.com/index.php/s/K2Tbehgj7fs675fj/download"
  *               }
  *          },
- *          3765:
+ *          "3765":
  *          {
  *               "desc": "
  *               <p>3.7.6.5</p>
@@ -39,7 +39,7 @@
  *                  "test.sh": "https://cloud.your_site.com/index.php/s/K2Tbejhf88vsEVdJI/download"
  *               }
  *          },
- *          3764:
+ *          "3764":
  *          {
  *               "desc": "Another description",
  *               "updateFiles":
